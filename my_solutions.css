@@ -124,7 +124,7 @@
 
 }
 
-.ex-13-button .ex-13-top-white {
+.ex-13-button:hover .ex-13-top-white {
     animation: top-white-move-right 2s linear;
 }
 
@@ -138,7 +138,7 @@
     
 }
 
-.ex-13-button .ex-13-bottom-white {
+.ex-13-button:hover .ex-13-bottom-white {
     animation: top-white-move-left 2s linear;
 }
 
