@@ -130,8 +130,8 @@
 
 @keyframes top-white-move-right {
     0%{left: 10%; top: -20px;}
-    30%{left: 100%; top: -20px;}
-    45%{left: 100%; top: 100%;}
+    30%{left: 100% ; top: -20px;}
+    45%{left: 100% ; top: 100%;}
     75%{left: 0; top: 100%;}
     90%{left: -15px; top: -10px;}
     100%{left: 10%; top: -20px;}
@@ -144,8 +144,8 @@
 
 @keyframes top-white-move-left {
     0%{right: 10%; bottom: -20px;}
-    30%{right: 100%; bottom: -20px;}
-    45%{right: 100%; bottom: 100%;}
+    30%{right: calc(100% - 40px) ; bottom: -20px;}
+    45%{right: calc(100% - 40px) ; bottom: 100%;}
     75%{right: 0; bottom: 100%;}
     90%{right: -15px; bottom: -10px;}
     100%{right: 10%; bottom: -20px;}
