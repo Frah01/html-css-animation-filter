@@ -139,10 +139,10 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: top-white-move-left 2s linear;
+    animation: bottom-white-move-left 2s linear;
 }
 
-@keyframes top-white-move-left {
+@keyframes bottom-white-move-left {
     0%{right: 10%; bottom: -20px;}
     30%{right: calc(100% - 40px) ; bottom: -20px;}
     45%{right: calc(100% - 40px) ; bottom: 100%;}
